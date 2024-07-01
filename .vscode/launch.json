@@ -1,0 +1,19 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Python: aniworld_scraper",
+			"type": "debugpy",
+			"request": "launch",
+			"program": "${workspaceFolder}/main.py",
+			"args": [
+				"anime", // Replace with "serie" if scraping series
+				"Name-Goes-Here", // Replace with the name of the anime or series from the url
+				"Deutsch", // Replace with the desired language, e.g., "English"
+				"0" // Optional: replace with the season number if needed
+			],
+			"console": "integratedTerminal",
+			"justMyCode": true
+		}
+	]
+}
